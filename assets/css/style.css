@@ -26,3 +26,81 @@ body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#search-bar {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+#search-bar form {
+    padding: 30px 0 0 20px;
+}
+
+#search-bar form button {
+    background-color: var(--primary);
+    color: white;
+    border:none;
+}
+
+#citys {
+    padding: 30px 0 20px 20px;
+}
+
+.cityBtn {
+    margin-top: 10px;
+    background-color: var(--primary);
+    color: white;
+    border:none;
+}
+
+.content {
+    background-color: white;
+}
+
+#weather {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#weather p {
+    margin: 0;
+}
+
+#daily {
+    margin:50px 0 0 0;
+}
+
+.cardCont {
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 0;
+}
+
+.forcastCard{
+    background-color: var(--primary);
+    color: white;
+    padding:20px 20px 0 20px;
+
+}
+
+.uvLow {
+    background-color: green;
+}
+
+.uvMed {
+    background-color: yellow;
+}
+
+.uvHi {
+    background-color: orangered;
+}
+
+.uvEh {
+    background-color: red;
+}
+
+.uvEx {
+    background-color: black;
+    color:white;
+}
